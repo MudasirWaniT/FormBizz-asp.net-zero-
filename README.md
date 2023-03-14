@@ -1,7 +1,11 @@
-# FormBizzApplication
+# FormBizz - Application
 Form based application, provides a strong architectural model based on Domain Driven Design, with all the best practices in mind. FormBizzuses the latest ASP.NET  Core &amp; EF Core frameworks.
 
 The core FormBizz application comprises several components:
+
+Click "FormBizz.Web.sln" to open the project.
+
+
 
 aspnetzero. a boiler plate framework which provides out the box support for our multi-tenanted application,
 form.io  for JSON form schema,
@@ -14,12 +18,12 @@ Otherwise, you can head over here, grab a copy of the source code and get starte
 # Overview
 The components of the application and their relationships.
 
-Syntaq provides a strong architectural model based on Domain Driven Design, with all the best practices in mind. Syntaq uses the latest ASP.NET  Core & EF Core frameworks.
+FormBizz provides a strong architectural model based on Domain Driven Design, with all the best practices in mind. FormBizz uses the latest ASP.NET  Core & EF Core frameworks.
 
 ASP.NET  Core 3.1
 Azure SQL Server
 Azure Web application hosting infrastructure
-The layering of an application's codebase is a widely accepted technique to help reduce complexity and to improve code reusability. To achieve a layered architecture, SYNTAQ follows the principles of Domain Driven Design delivered using a MCV pattern.
+The layering of an application's codebase is a widely accepted technique to help reduce complexity and to improve code reusability. To achieve a layered architecture, FormBizz follows the principles of Domain Driven Design delivered using a MCV pattern.
 
 Domain Driven Design Layers
 There are four fundamental layers in Domain Driven Design (DDD):
@@ -61,3 +65,68 @@ Make sure Default Project is set to FormBizz.EntityFrameworkCore at the top of t
 Inside the console, type "Add-Migration", then when prompted, supply the name of the database (FormBizzDb).
 
 Next type in the console window "Update-Database". This will generate a local copy of the latest database structure.
+
+
+
+# Technology that we have used :
+
+# Back-End :
+
+Asp.Net Zero
+
+Asp.NET Core 6.0
+
+MVC (Areas)
+
+Entity Freamwork 6.0 (Code First Approach)
+
+Web API
+
+Design Pattern (Repogitory Design Pattern)
+
+SigalR
+
+# Front-End :
+
+Views
+
+Form.IO
+
+HTML 5
+
+Bootstrap
+
+CSS
+
+ForntAwesome
+
+# Cloud :
+
+Azure Function
+
+Azure Blob
+
+Azure Web App & VM
+
+# Testing :
+
+  - Manual Testing
+
+    xUnit Freamwork
+
+  - Autometion
+
+# Cypress
+
+ Autometic Build Publish
+
+# CI/CD Pipeline
+  
+  Terraform (for auto build & environment setup)
+  
+  Crone-Job
+
+HangFire
+
+
+** Thanks **
