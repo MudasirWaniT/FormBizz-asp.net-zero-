@@ -54,22 +54,6 @@
           }
         }
       },
-      "Abp.Zero.Common/7.3.0": {
-        "type": "package",
-        "dependencies": {
-          "Abp": "7.3.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Abp.Zero.Common.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Abp.Zero.Common.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Castle.Core/4.4.1": {
         "type": "package",
         "dependencies": {
@@ -2288,34 +2272,6 @@
             "related": ".xml"
           }
         }
-      },
-      "FormBizz.Application.Shared/11.4.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Abp.Web.Common": "7.3.0",
-          "FormBizz.Core.Shared": "11.4.0"
-        },
-        "compile": {
-          "bin/placeholder/FormBizz.Application.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FormBizz.Application.Shared.dll": {}
-        }
-      },
-      "FormBizz.Core.Shared/11.4.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Abp": "7.3.0",
-          "Abp.Zero.Common": "7.3.0"
-        },
-        "compile": {
-          "bin/placeholder/FormBizz.Core.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FormBizz.Core.Shared.dll": {}
-        }
       }
     }
   },
@@ -2348,21 +2304,6 @@
         "abp_nupkg.png",
         "lib/netstandard2.0/Abp.Web.Common.dll",
         "lib/netstandard2.0/Abp.Web.Common.xml"
-      ]
-    },
-    "Abp.Zero.Common/7.3.0": {
-      "sha512": "0WEnH8H4w4iDzUhajtZnp/uzFFlYIhFEr410Ac5MnmcQ0xARldIRHGD5I7EGenrZb30cWsQLyldvoI/UM6aDXQ==",
-      "type": "package",
-      "path": "abp.zero.common/7.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "abp.zero.common.7.3.0.nupkg.sha512",
-        "abp.zero.common.nuspec",
-        "abp_nupkg.png",
-        "lib/netstandard2.0/Abp.Zero.Common.dll",
-        "lib/netstandard2.0/Abp.Zero.Common.xml"
       ]
     },
     "Castle.Core/4.4.1": {
@@ -7341,22 +7282,12 @@
         "timezoneconverter.5.0.0.nupkg.sha512",
         "timezoneconverter.nuspec"
       ]
-    },
-    "FormBizz.Application.Shared/11.4.0": {
-      "type": "project",
-      "path": "../../src/Syntaq.Falcon.Application.Shared/FormBizz.Application.Shared.csproj",
-      "msbuildProject": "../../src/Syntaq.Falcon.Application.Shared/FormBizz.Application.Shared.csproj"
-    },
-    "FormBizz.Core.Shared/11.4.0": {
-      "type": "project",
-      "path": "../../src/FormBizz.Core.Shared/FormBizz.Core.Shared.csproj",
-      "msbuildProject": "../../src/FormBizz.Core.Shared/FormBizz.Core.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Abp.Web.Common >= 7.3.0",
-      "FormBizz.Application.Shared >= 11.4.0",
+      "E:\\Saunak\\FormBizz\\FormBizzWeb\\FormBizz\\src\\Syntaq.Falcon.Application.Shared\\FormBizz.Application.Shared.csproj",
       "IdentityModel >= 6.0.0"
     ]
   },
@@ -7367,11 +7298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\test\\FormBizz.ConsoleApiClient\\FormBizz.ConsoleApiClient.csproj",
+      "projectUniqueName": "E:\\Saunak\\FormBizz\\FormBizzWeb\\FormBizz\\test\\FormBizz.ConsoleApiClient\\FormBizz.ConsoleApiClient.csproj",
       "projectName": "FormBizz.ConsoleApiClient",
-      "projectPath": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\test\\FormBizz.ConsoleApiClient\\FormBizz.ConsoleApiClient.csproj",
+      "projectPath": "E:\\Saunak\\FormBizz\\FormBizzWeb\\FormBizz\\test\\FormBizz.ConsoleApiClient\\FormBizz.ConsoleApiClient.csproj",
       "packagesPath": "C:\\Users\\Talentelgia\\.nuget\\packages\\",
-      "outputPath": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\test\\FormBizz.ConsoleApiClient\\obj\\",
+      "outputPath": "E:\\Saunak\\FormBizz\\FormBizzWeb\\FormBizz\\test\\FormBizz.ConsoleApiClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7394,8 +7325,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\Syntaq.Falcon.Application.Shared\\FormBizz.Application.Shared.csproj": {
-              "projectPath": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\Syntaq.Falcon.Application.Shared\\FormBizz.Application.Shared.csproj"
+            "E:\\Saunak\\FormBizz\\FormBizzWeb\\FormBizz\\src\\Syntaq.Falcon.Application.Shared\\FormBizz.Application.Shared.csproj": {
+              "projectPath": "E:\\Saunak\\FormBizz\\FormBizzWeb\\FormBizz\\src\\Syntaq.Falcon.Application.Shared\\FormBizz.Application.Shared.csproj"
             }
           }
         }
@@ -7438,5 +7369,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'E:\\Saunak\\FormBizz\\FormBizzWeb\\FormBizz\\src\\Syntaq.Falcon.Application.Shared\\FormBizz.Application.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "E:\\Saunak\\FormBizz\\FormBizzWeb\\FormBizz\\src\\Syntaq.Falcon.Application.Shared\\FormBizz.Application.Shared.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
