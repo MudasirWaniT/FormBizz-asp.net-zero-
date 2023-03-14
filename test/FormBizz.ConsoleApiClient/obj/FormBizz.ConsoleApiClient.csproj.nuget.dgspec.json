@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\test\\FormBizz.ConsoleApiClient\\FormBizz.ConsoleApiClient.csproj": {}
+  },
+  "projects": {
+    "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\FormBizz.Core.Shared\\FormBizz.Core.Shared.csproj": {
+      "version": "11.4.0",
+      "restore": {
+        "projectUniqueName": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\FormBizz.Core.Shared\\FormBizz.Core.Shared.csproj",
+        "projectName": "FormBizz.Core.Shared",
+        "projectPath": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\FormBizz.Core.Shared\\FormBizz.Core.Shared.csproj",
+        "packagesPath": "C:\\Users\\Talentelgia\\.nuget\\packages\\",
+        "outputPath": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\FormBizz.Core.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Talentelgia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\SAML\\Bin": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Abp": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Abp.Zero.Common": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\Syntaq.Falcon.Application.Shared\\FormBizz.Application.Shared.csproj": {
+      "version": "11.4.0",
+      "restore": {
+        "projectUniqueName": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\Syntaq.Falcon.Application.Shared\\FormBizz.Application.Shared.csproj",
+        "projectName": "FormBizz.Application.Shared",
+        "projectPath": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\Syntaq.Falcon.Application.Shared\\FormBizz.Application.Shared.csproj",
+        "packagesPath": "C:\\Users\\Talentelgia\\.nuget\\packages\\",
+        "outputPath": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\Syntaq.Falcon.Application.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Talentelgia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\SAML\\Bin": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\FormBizz.Core.Shared\\FormBizz.Core.Shared.csproj": {
+                "projectPath": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\FormBizz.Core.Shared\\FormBizz.Core.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Abp.Web.Common": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\test\\FormBizz.ConsoleApiClient\\FormBizz.ConsoleApiClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\test\\FormBizz.ConsoleApiClient\\FormBizz.ConsoleApiClient.csproj",
+        "projectName": "FormBizz.ConsoleApiClient",
+        "projectPath": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\test\\FormBizz.ConsoleApiClient\\FormBizz.ConsoleApiClient.csproj",
+        "packagesPath": "C:\\Users\\Talentelgia\\.nuget\\packages\\",
+        "outputPath": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\test\\FormBizz.ConsoleApiClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Talentelgia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\SAML\\Bin": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\Syntaq.Falcon.Application.Shared\\FormBizz.Application.Shared.csproj": {
+                "projectPath": "E:\\Saunak\\FormBizz\\FormBizz\\FormBizz\\src\\Syntaq.Falcon.Application.Shared\\FormBizz.Application.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Abp.Web.Common": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

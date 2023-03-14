@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Syntaq.Falcon.ConsoleApiClient
+build_property.ProjectDir = E:\Saunak\Form IO Angular - Examples\Falcon.11.2.Clean_11172022\Falcon.11.2.Clean\Falcon\test\Syntaq.Falcon.ConsoleApiClient\
